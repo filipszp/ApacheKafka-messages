@@ -97,8 +97,6 @@ public class KafkaUtils implements Runnable {
 
 			consumer.commitAsync();
 		}
-		//consumer.close();
-		//System.out.println("DONE");
 	}
 
 	@Override
